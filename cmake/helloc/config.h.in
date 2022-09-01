@@ -1,0 +1,2 @@
+#define helloc_VERSION_MAJOR @helloc_VERSION_MAJOR@
+#define helloc_VERSION_MINOR @helloc_VERSION_MINOR@

@@ -1,0 +1,12 @@
+LEXICON Nouns
+
+talo    Suffixes    ;
+tälö    Suffixes    ;
+
+LEXICON Suffixes
+
++N+Sg+Nom:0     #   ;
++N+Sg+Ine:ssA   #   ;
++N+Pl+Nom:t     #   ;
++N+Pl+Ine:issA  #   ;
+

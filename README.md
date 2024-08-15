@@ -22,7 +22,8 @@ projects. Many other systems use it as a backend. Its scripting language is
 combination of a limited shell scripting mixed with rules defining
 file-dependencies and some variables. There is a whole scripting langauage
 stuff hiding within make, but it's not very well known and not very portable,
-probably.
+probably. Make also knows a lot of things already, like how to compile C, that
+is why you can make a zero line `Makefile` for trivial projects.
 
 ## Autotools
 

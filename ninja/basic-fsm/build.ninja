@@ -1,0 +1,15 @@
+rule lexc
+    command = hfst-lexc $in -o $out
+
+build lexicon.hfst: lexc root.lexc nouns.lexc
+
+rule twolc
+    command = hfst-twolc -i $in -o $out --resolve
+
+build morphographemics.hfst: twolc morphographemics.twolc
+
+rule hic
+    command = hfst-compose-intersect $in -o $out
+
+build morphological-analyser.hfst: hic lexicon.hfst morphographemics.hfst
+

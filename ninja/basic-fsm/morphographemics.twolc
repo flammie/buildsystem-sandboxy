@@ -1,0 +1,12 @@
+Alphabet
+
+A:ä A:a ;
+
+Rules
+
+"Front vowel harmony"
+A:ä <= [ä | ö ] \[a | o]* _ ;
+
+"Back vowel harmony"
+A:a <= [a | o] \[ä | ö]* _ ;
+
